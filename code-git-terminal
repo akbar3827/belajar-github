@@ -39,6 +39,15 @@ untuk membuat branch baru
 untuk ingin melihat perubahan yang terjadi 
   git clone <https forknya>
 untuk menyimpan repo hasil fork ke file manager
+  git clean -f 
+untuk membatalkan semuafile yang baru ditambahkan.
+  git restore <nama file>
+untuk membatalkan perubahan dari file.
+  git restore .
+untuk membatalkan semua perubahan file yang berada di satu folder yang sama. bisa juga untuk membatalkan penghapusan file.
+  git restore --staged <name file>
+untuk mengembalikan file yang sudah ke add di stagging kembali ke working directiory.
+  
 
 
        ALGORITMA GIT DI TERMINAL :
