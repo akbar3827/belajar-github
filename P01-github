@@ -1,0 +1,21 @@
+VCS atau Version Control System adalah sistem yang merekan perubahan dari waktu ke waktu.
+git memiliki tiga state terhadap file kita : modified, staged, commited
+  1. modified artinya mengubah (menambah, mengedit, menghapus) file, namun belum tersimpan secara permanen di repository
+  2. staged artinnya kita menandai memodifikasi yang kita lakukan terhadap file akan disimpan secara permanen ke repository
+  3. commited artinya data sudah aman disimpan kerepository
+tree section
+ tiga state sebelumnya didalam git dilakukan didalam section yang berbeda beda yaitu Working Directory, Staging Area, dan Repository
+Snapshot
+semua perubahan yang terjadi akan direkam, dan kita sebut itu namanya adalah snapshot
+ snapshot berisikan semua perubahan yang terjadi disemua file yang kita commit
+ setiap snapshot menghasilkan hash
+  definisi sederhananya dari hash adalah ID dari snapshotnya.
+HEAD merupakan pointer menuju hash yang paling terakhir (terbaru) untuk memudahkan mengakses hash yang paling terakhir karena point hash itu pannjang dan ribet.
+ kata kunci ini berguna ketika kita ingin menuju hash paling akhir atau paling terbaru.
+track merupakan perubahan yang dikenali dan dicatat oleh git.
+
+
+git status
+ untuk mengecek apakah ada file yang belum ditrack
+git add <file name>
+ untuk ngetrack ke stagging area.
