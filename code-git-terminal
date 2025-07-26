@@ -1,0 +1,33 @@
+  git remote add origin https://github.com/username/repo.git
+untuk menghubungkan repo lokal di github dengan remote.
+   git add .
+untuk menambah perubahan 1 folder saya 
+   C:\Users\Bar\Documents\
+ │
+ ├── belajar-javascript\
+ │     ├── index.html
+ │     └── script.js
+ │
+ ├── belajar-python\
+ │      ├── main.py
+ │
+ ├── tugas-sekolah\
+       └── laporan.docx
+ yang ditambah perubahannya hanya salah satu dari tiga folder tersebut
+gid add <name file> ini hanya satu file saja.
+  git init
+Ini buat menginisialisasi folder kamu jadi repo Git (jadi bisa dipantau perubahan filenya).
+  git status
+ini untuk mengecek apakah ada file atau folder yang belum ditrack.
+  git commit -m "Pesan commit yang jelas dan singkat"
+Commit = simpan perubahan ke "riwayat" lokal dengan pesan singkat tentang perubahan itu.
+  git push -u origin main ATAU git remote add origin https://github.com/username/repo.git
+untuk push perubahan 
+origin = nama remote (default biasanya origin)
+main = nama branch utama
+-u = menghubungkan branch lokal dengan remote, supaya kedepannya cukup pakai git push
+  git pull origin main
+Ini akan menggabungkan perubahan dari remote ke lokal.
+ambil update baru dari remote.
+  git remote -v
+untuk mengecek nama remote.
