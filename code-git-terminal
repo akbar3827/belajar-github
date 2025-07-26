@@ -1,5 +1,7 @@
   git remote add origin https://github.com/username/repo.git
 untuk menghubungkan repo lokal di github dengan remote.
+  git remote set-url origin https://github.com/username-baru/nama-repo-baru.git
+
    git add .
 untuk menambah perubahan 1 folder saya 
    C:\Users\Bar\Documents\
@@ -31,3 +33,31 @@ Ini akan menggabungkan perubahan dari remote ke lokal.
 ambil update baru dari remote.
   git remote -v
 untuk mengecek nama remote.
+
+
+       ALGORITMA GIT DI TERMINAL :
+1. cd C:/Users/Bar/Documents/belajar-javascript
+   Masuk ke folder project-mu
+2. git init
+   menginisisalisasi repo gti
+3. git status
+   Kamu akan lihat file berwarna merah = belum ditrack
+4. git add .
+   Tambahkan semua file ke staging
+    Bisa juga git add nama_file kalau mau sebagian aja
+5. git commit -m "commit pertama: inisialisasi project"
+   Buat commit pertama
+6. Buat repo baru di GitHub
+    1. Login GitHub
+    2. Klik tombol “New repository”
+    3. Namai repo kamu misalnya: belajar-javascript
+    4. Jangan centang "Initialize with README" (karena lokal kamu udah ada isinya)
+    5. Klik Create repository
+7. git remote add origin https://github.com/username/belajar-javascript.git
+   Hubungkan ke remote GitHub
+8. git remote -v
+   mengecek nama remote terlebih dahulu.
+9. git push -u origin main
+  nama remote bermacam macam (origin, main, master, dev, develop, dll.)
+10. Selesai! Repo kamu sekarang live di GitHub!
+
