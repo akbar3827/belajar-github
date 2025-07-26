@@ -35,6 +35,10 @@ ambil update baru dari remote.
 untuk mengecek nama remote.
   git branch <nama branch baru>
 untuk membuat branch baru
+  git diff
+untuk ingin melihat perubahan yang terjadi 
+  git clone <https forknya>
+untuk menyimpan repo hasil fork ke file manager
 
 
        ALGORITMA GIT DI TERMINAL :
