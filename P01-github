@@ -13,9 +13,4 @@ semua perubahan yang terjadi akan direkam, dan kita sebut itu namanya adalah sna
 HEAD merupakan pointer menuju hash yang paling terakhir (terbaru) untuk memudahkan mengakses hash yang paling terakhir karena point hash itu pannjang dan ribet.
  kata kunci ini berguna ketika kita ingin menuju hash paling akhir atau paling terbaru.
 track merupakan perubahan yang dikenali dan dicatat oleh git.
-
-
-git status
- untuk mengecek apakah ada file yang belum ditrack
-git add <file name>
- untuk ngetrack ke stagging area.
+fork adalah untuk menyalin repo dari repo orang lain.
