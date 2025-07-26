@@ -39,7 +39,7 @@ untuk mengecek nama remote.
 1. cd C:/Users/Bar/Documents/belajar-javascript
    Masuk ke folder project-mu
 2. git init
-   menginisisalisasi repo gti
+   menginisisalisasi repo git
 3. git status
    Kamu akan lihat file berwarna merah = belum ditrack
 4. git add .
