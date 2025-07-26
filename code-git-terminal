@@ -33,6 +33,8 @@ Ini akan menggabungkan perubahan dari remote ke lokal.
 ambil update baru dari remote.
   git remote -v
 untuk mengecek nama remote.
+  git branch <nama branch baru>
+untuk membuat branch baru
 
 
        ALGORITMA GIT DI TERMINAL :
