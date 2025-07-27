@@ -47,6 +47,23 @@ untuk membatalkan perubahan dari file.
 untuk membatalkan semua perubahan file yang berada di satu folder yang sama. bisa juga untuk membatalkan penghapusan file.
   git restore --staged <name file>
 untuk mengembalikan file yang sudah ke add di stagging kembali ke working directiory.
+  git restore --oneline
+untuk melihat log yang sebelumnya yang tampilannya lebih simple dan hanhya 7 angka.
+  git restore --online --graph
+untuk melihat branch atau cabang cabangnya jika kita memiliki branch yang yang komplek, bintang (*) adalah graphnya
+  git show <masukkan angka hash nya>
+untuk melihat detail dari perubahan saya yang sebelumnya, saya pengen lihat lebih detail apa saja yang sudah saya rubah.
+  git difftool <nomor hash> <nomor hash>
+untuk membedakan dari kedua commit
+  git commit -m "merubah <nama file> menjadi <nama file terbaru>"
+gunakan massage ini bila kondisinya ingin merubah nama file saja.
+  git reset <mode> <hash>
+untuk memindahkan head yang berawal dari hash yang sekarang akan berpindah ke hash yang kita inginkan.
+ada dua mode yang digunakan untuk mereset, yaitu soft, mixed, dan hard, sebenernya ada banyak, cuma yang banyak untuk dibahas 
+hanya dua ini saja.
+--shoft : head akan berpindah, tapi stagging area dan working directory tidak terhapus
+--mixed (default) : head akan berpindah, tapi stagging akan terhapus dan working directory tidak akan terhapus, ini defaultnya
+--hard : ini paling ekstrimm, head akan berpindah dan juga stagging dan working directiory juga akan terhapus.
   
 
 
