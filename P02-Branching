@@ -1,0 +1,4 @@
+branching artinya membuat timeline baru yang berbeda dari timeline utama.
+biasanya timeline utama, atau branch utama yang disebut main atau master 
+manfaat branch juga bisa membuat fitur baru sehingga bebas menambah fitur tanpa takut melakukan kesalahan di branch utama 
+ketika fitur sudah siap, kita bisa melakukan merge branch fitur baru tersebut ke branch utama
