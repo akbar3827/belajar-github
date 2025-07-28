@@ -1,0 +1,44 @@
+# meliha daftar commit
+git config --global alias.logone "log --oneline"
+
+# Melihat status repo
+git config --global alias.st status
+
+# Melihat daftar branch
+git config --global alias.br branch
+
+# Pindah branch
+git config --global alias.co checkout
+
+# Buat branch baru dan langsung pindah ke sana
+git config --global alias.cb "checkout -b"
+
+# Commit perubahan
+git config --global alias.co commit
+
+# Add semua perubahan ke staging
+git config --global alias.adAll "add ."
+
+# Add dan langsung commit cepat
+git config --global alias.ac '!git add . && git commit -m'
+
+# Push ke remote origin
+git config --global alias.psh push
+
+# Pull dari remote origin
+git config --global alias.pl pull
+
+# Lihat log commit dengan tampilan visual
+git config --global alias.lg "log --oneline --graph --all --decorate"
+
+# Reset ke commit sebelumnya (soft)
+git config --global alias.rs "reset --soft HEAD~1"
+
+# Reset ke commit sebelumnya (hard, hati-hati)
+git config --global alias.rh "reset --hard HEAD~1"
+
+# Melihat konfigurasi alias
+git config --global alias.alias "config --get-regexp alias"
+
+# untuk menggunakan aliasnya
+git <namaAliasnya>
