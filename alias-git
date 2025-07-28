@@ -40,5 +40,8 @@ git config --global alias.rh "reset --hard HEAD~1"
 # Melihat konfigurasi alias
 git config --global alias.alias "config --get-regexp alias"
 
+# melihat hasil commit beserta graphnya
+git config --global alias.logGraph "log --oneline --graph"
+
 # untuk menggunakan aliasnya
 git <namaAliasnya>
