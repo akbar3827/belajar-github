@@ -64,7 +64,39 @@ hanya dua ini saja.
 --shoft : head akan berpindah, tapi stagging area dan working directory tidak terhapus
 --mixed (default) : head akan berpindah, tapi stagging akan terhapus dan working directory tidak akan terhapus, ini defaultnya
 --hard : ini paling ekstrimm, head akan berpindah dan juga stagging dan working directiory juga akan terhapus.
-  
+  git commit --amend -m ""
+untuk menimpa file yang sudah dimodifikasi dan dicommit. tapi code hash nya akan diubah juga karena ada penambahan 
+di file tersebut.
+  git checkout <hash> --<namafile>
+untuk mengambil isi file tersebut <hash> dan meletakkannya ke working directory. hanya mengambil versinya file dari commit itu.
+file akan berada di working directory, jika kita ingin menyimpannya menggunakan git add dan git commit.
+file lama akan ditimpa (direplace) oleh versi file yang ingin kita lihat, jika kita ingin mengembalikan versi file yang terbaru
+versi HEAD nya, kita menggunakan :
+  git restore --staged <nama file>
+  git restore <nama file>
+harus menggunakan 2 syntax tersebut.
+  git checkout <hash> 
+jika kita ingin melihat commit tertentu.
+  git checkout <nama branch>
+untuk ingin kembali ke paling awal (now).
+  git revert <hash>
+untuk benar benar membatalkan commit yang sudah kita lakukan. "lalu apa bedanya dengan git reset? beda yaa, karena jika kita-
+membatalkan perubahan dengan menggunakan reset, maka perubahan perubahan setelahnya dari commit tersebut akan hilang juga,-
+kita tidak mau hal tersebut terjadi, maka menggunakan revert, jadi akan dibuatkan commit baru dengan isi commit yang ingin-
+kita ubah. contohnya dari awalnya file_2.txt menjadi file2.txt (perubahannya akan dibatalkan yang awalnya kita rename menjadi
+file_2.txt)
+   buatlah file dan diberi .gitignore setelah itu tulis file file yang tidak ingin ikut ditrack dan di commit
+untuk mengecualikan file file yang tidak ingin di track dan di commit, contohnya seperti image, dll. 
+  git blame <namafile> 
+untuk mengetahui apa saja yang menambah perubah, dan untuk mengetahui commitnya itu yang mana?
+  git config --global alias.<nama_alias> <perintah_git_aslinya>
+untuk mempercepat dan mempermudah anda saat mengetik perintah git diterminal mmisalnya.
+contohnya : 
+git config --global alias.ko commit
+git config --gloabl alias.komit commit (ini juga bisa)
+git config --global alias.loglen "log --oneline" kalau perintahnya lebih dari satu menggunakan string
+  git add . && git commit -m "pesan"
+shortcut untuk add ke stigging area dan commit ke repo.
 
 
        ALGORITMA GIT DI TERMINAL :
