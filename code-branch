@@ -1,0 +1,6 @@
+  git branch <nama branchnya>
+untuk membuat branch baru
+  git branch --list
+untuk melihat daftar branch
+  git swicth <nama branch>
+untuk berpindah ke branch lain
