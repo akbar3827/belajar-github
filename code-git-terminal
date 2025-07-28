@@ -97,6 +97,8 @@ git config --gloabl alias.komit commit (ini juga bisa)
 git config --global alias.loglen "log --oneline" kalau perintahnya lebih dari satu menggunakan string
   git add . && git commit -m "pesan"
 shortcut untuk add ke stigging area dan commit ke repo.
+  git log --oneline --graph
+untuk mengecek hasil hash dalam 1 line
 
 
        ALGORITMA GIT DI TERMINAL :
