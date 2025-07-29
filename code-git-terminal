@@ -101,7 +101,12 @@ shortcut untuk add ke stigging area dan commit ke repo.
 untuk mengecek hasil hash dalam 1 line
   git remote add <namaremote> <link repo nya>
 untuk menghubungkan repo lokal ke repo server
-  git 
+  git branch -d <nama branch>
+untuk menghapus branch secara lokal
+  git push <nama remote> <nama branch>
+untuk push branch ke git server
+  git push <nama remote> -d <nama branch>
+untuk menghapus branch yang sudah dii push
 
 
        ALGORITMA GIT DI TERMINAL :
