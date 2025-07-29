@@ -1,0 +1,4 @@
+Git server adalah tempat penyimpanan pusat (remote) untuk proyek Git yang memungkinkan banyak orang bekerja bersama dalam satu 
+repositori. Bisa kamu anggap sebagai "cloud Git", tempat semua hasil kerja dari lokal (komputermu) bisa dikirim dan
+dibagikan ke orang lain.
+kita juga bisa mmenggunakan multiple gi server, jadi kita bisa menyimpan dan membuat repo dan commit ke git server lebih dari satu.
