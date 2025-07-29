@@ -99,6 +99,9 @@ git config --global alias.loglen "log --oneline" kalau perintahnya lebih dari sa
 shortcut untuk add ke stigging area dan commit ke repo.
   git log --oneline --graph
 untuk mengecek hasil hash dalam 1 line
+  git remote add <namaremote> <link repo nya>
+untuk menghubungkan repo lokal ke repo server
+  git 
 
 
        ALGORITMA GIT DI TERMINAL :
