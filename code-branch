@@ -12,3 +12,5 @@ untuk menghapus branch, tetapi kita harus berada dibranch yang berbeda dari nama
 untuk menggabungkan branch
   git merge --abort 
 untuk mengcencel merge branch
+  git cherry-pick <code hash>
+untuk ingin melakukan merge salah satu commit dari branch lain
