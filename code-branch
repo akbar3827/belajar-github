@@ -4,3 +4,11 @@ untuk membuat branch baru
 untuk melihat daftar branch
   git swicth <nama branch>
 untuk berpindah ke branch lain
+  git branch --d <namabranch>
+  git branch --delete <namabranch>
+untuk menghapus branch, tetapi kita harus berada dibranch yang berbeda dari nama branch yang ingin kita hapus
+ untuk melakukan merge branch kita harus berada di branch yang akan kita merge terlebih dahulu.
+  git merge <namabranch>
+untuk menggabungkan branch
+  git merge --abort 
+untuk mengcencel merge branch
